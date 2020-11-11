@@ -5,24 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title id="title">freeCodeCamp Survey Form
-        <p id="description">Thank you for taking the time to help us improve the platform</p>
     </title>
 </head>
 <body>
         
-        <p>Thank you for taking the time to help us improve the platform</p>
-<form action="">
+
+<form action="" id="survey-form" style="border:1px solid #ccc">
  <div class="containter">
      <h1>freeCodeCamp Survey Form</h1>
      <p>Thank you for taking the time to help us improve the platform</p>
-     <hr>
 
-     <label for="name">Name</label>
-     <input type="text" name="Enter your name" id="name" required>
+     <label for="name"><strong>Name</strong></label>
+     <input type="text" placeholder="Enter name" name="Enter your name" id="name" required>
+    <br>
 
+     <label for="email"><strong>Email</strong></label>
+     <input type="text" placeholder="Enter email" name="" id="email" required>
+    <br>
+     <label for="options">Which options describes you best</label>
+     <select name="options" id="dropdown">
+            <option value="student">Student</option>
+            <option value="student">Full-time job</option>
+            <option value="student">Full-time learner</option>
+            <option value="student">Prefer not to say</option>
+            <option value="student">other</option>
+     </select>
+     <br>
+     <label for="">What is your favorite feature of freeCodeCamp?</label>
+     <select name="feature" id="freecodecamp">
+        <option value="challenges">challenges</option>
+     </select>
 
-     <label for="email">Email</label>
-     <input type="text" name="Enter your email" id="email" required>
+     <div class="clearfix">
+        <button type="submit" class="signupbtn">Submit</button>
+      </div>
  </div>
 </form>
     
