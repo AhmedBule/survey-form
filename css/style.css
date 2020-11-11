@@ -1,4 +1,14 @@
 body{
     text-align: center;
     background-color: cornflowerblue;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#container{
+    margin: auto;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    
 }
