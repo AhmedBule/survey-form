@@ -7,29 +7,35 @@
     <title id="title">freeCodeCamp Survey Form
     </title>
 </head>
-<body>
-        
-
+<body> 
 <form action="" id="survey-form" style="border:1px solid #ccc">
  <div class="containter">
      <h1>freeCodeCamp Survey Form</h1>
      <p>Thank you for taking the time to help us improve the platform</p>
-
-     <label for="name"><strong>Name</strong></label>
-     <input type="text" placeholder="Enter name" name="Enter your name" id="name" required>
+    <div class="form-group"></div>
+     <label id="name-label" for="name"><strong>Name</strong></label>
+     <input type="text" placeholder="Enter name" name="name" id="name" required>
+    </div>
     <br>
-
-     <label for="email"><strong>Email</strong></label>
-     <input type="text" placeholder="Enter email" name="" id="email" required>
+    <div class="form-group">
+     <label id="email-label" for="email"><strong>Email</strong></label>
+     <input type="email" placeholder="Enter email" name="" id="email" required>
+    </div>
     <br>
-     <label for="options">Which options describes you best</label>
+    <div class="age-label">
+  <label for="number" id="number-label">Age <span class="clue">(optional)</span></label>
+  <input type="number" name="age" id="number" min="12" max="100" class="form-control" placeholder="Age">
+</div>
+<div class="form-group">
+     <p>Which option best describes your current role?</p>
      <select name="options" id="dropdown">
             <option value="student">Student</option>
-            <option value="student">Full-time job</option>
-            <option value="student">Full-time learner</option>
-            <option value="student">Prefer not to say</option>
-            <option value="student">other</option>
+            <option value="job">Full-time job</option>
+            <option value="learner">Full-time learner</option>
+            <option value="nope">Prefer not to say</option>
+            <option value="other">other</option>
      </select>
+    </div>
      <br>
 
      <label for="">Would you recommend freeCodeCamp to a friend?</label>
@@ -84,9 +90,10 @@
          <br>
          <input type="checkbox" name="" id="Additional Courses">
      </form>
+     <div class="form-group">
      <p>Any comments or suggestions?</p>
-     <textarea name="comment" id="" cols="50" rows="10">Enter your comments here... </textarea>
-
+     <textarea name="comment" id="comments" class="input-textarea" placeholder="Enter your comment here..." cols="50" rows="10"> </textarea>
+    </div>
      <div class="clearfix">
         <button type="submit" class="signupbtn">Submit</button>
       </div>
