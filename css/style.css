@@ -1,11 +1,10 @@
 body{
-    text-align: center;
     background-color: cornflowerblue;
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
-
+/*
 #container{
     margin: auto;
     box-sizing: border-box;
@@ -13,24 +12,30 @@ body{
     height: auto;
 
 }
-
+*/
+/*
 .form-group{
     padding: 20px;
     width: 100%;
-    margin: 5px 0px 20px 0px;
+    margin: 5px 0px 20px 0px;  
 }
-
+*/
 #survey-form{
     background-origin: padding-box;
 }
 
-button{
-    background-color: darkgreen;
-    border: none;
-    cursor: pointer;
+
+.form-box{
+ border: 1px solid black;
+ margin: 100px; 
+ max-width: 750px;
+}
+
+.form-padding {
+    padding: 25px;
+}
+
+.input-field-style {
     width: 100%;
-    padding: 1px 30px;
-    opacity: 0.9;
-    color: white;
     display: block;
 }
