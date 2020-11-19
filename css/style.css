@@ -1,8 +1,8 @@
 body{
-    background-color: cornflowerblue;
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
+   
 }
 /*
 #container{
@@ -29,7 +29,11 @@ body{
  border: 1px solid black;
  margin: 100px; 
  max-width: 750px;
+ background-color: orange;
+background: url(paper.gif);
+ 
 }
+
 
 .form-padding {
     padding: 25px;
@@ -38,4 +42,10 @@ body{
 .input-field-style {
     width: 100%;
     display: block;
+}
+
+
+#header{
+    justify-content: center;
+    text-align: center;
 }
