@@ -12,6 +12,5 @@
 
 ## Sample image 
 
-    ![Background-Image](readme.png)
+    ![screenshot](sample-image.png)
 
-    
