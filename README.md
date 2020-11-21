@@ -11,6 +11,5 @@
     - Questionaires 
 
 ## Sample image 
-
-    ![screenshot](images/sample-image.jpg)
+  ![screenshot](images/sample-image.jpg)
 
