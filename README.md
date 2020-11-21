@@ -12,5 +12,5 @@
 
 ## Sample image 
 
-    ![screenshot](sample-image.png)
+    ![screenshot](images/sample-image.jpg)
 
